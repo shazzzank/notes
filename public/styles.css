@@ -1,0 +1,88 @@
+body {
+    background: black;
+    color: darkcyan;
+    font-family: Helvetica Neue;
+    padding: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    background: inherit;
+}
+
+button {
+    border: 1px solid darkcyan;
+    border-radius: 50%;
+    bottom: -1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 2rem;
+    position: absolute;
+    right: 1rem;
+    width: 2rem !important;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0 0 1.1rem;
+}
+
+h2 {
+    font-size: 1.43rem;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.65;
+}
+
+input {
+    font-size: 1.43rem;
+    font-weight: 700;
+    height: 2rem;
+    line-height: 1.15;
+}
+
+textarea {
+    border: none;
+    font-size: 1.125rem;
+    height: 6rem;
+    line-height: 1.65;
+    resize: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: darkcyan;
+    font-weight: light;
+    transform: scale(0.8);
+}
+
+section>div {
+    border: 1px solid darkcyan;
+    margin: 1rem;
+    position: relative;
+}
+
+section>div>* {
+    display: inline-block;
+    outline: none;
+    text-align: center;
+    width: 15rem;
+    margin: 0;
+    padding: 0;
+}
+
+#root * {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
