@@ -24,7 +24,7 @@ function App() {
 
   return (
     <section>
-      <h1>Keeper</h1>
+      <h1>Notes</h1>
       <div>
         { boolean ? <input 
         	name="title" 
